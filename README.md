@@ -4,7 +4,18 @@
 >
 >*02456 DEEP LEARNING, DTU COMPUTE, FALL 2021*
 
-The main notebook of this project `Epitope_Prediction.ipynb`, contains demonstrations of our three models (FFNN, RNN & GNN) and two reference models (Discotope2 [[1]](#1) and BepiPred3 [[2]](#2)) and a comparison of their performance. We allow use of both solved structure embeddings and AlphaFold2 [[3]](#2) structure embeddings. Both of these embeddings are made with ProteinSolver [[4]](#2).
+<!-- PROJECT LOGO -->
+<p align="center">
+  <a href="https://github.com/FSGade/alphafold_epitopes">
+    <img src="data/abcomplex.png" alt="Logo" width="500">
+  </a>
+  <p align="center">
+    Figure 1: Neutralizing antibody (cyan) bound to the epitope region (orange) of an HIV glycoprotein antigen (grey).</a>
+  </p>
+</p>
+<br>
+
+The main notebook of this project, `Epitope_Prediction.ipynb`, contains demonstrations of our three models (FFNN, RNN & GNN) and two reference models (Discotope2 [[1]](#1) and BepiPred3 [[2]](#2)) and a comparison of their performance. We allow use of both solved structure embeddings and AlphaFold2 [[3]](#2) structure embeddings. Both of these embeddings are made with ProteinSolver [[4]](#2).
 
 Running this notebook requires specific versions of PyTorch and associated packages to be compatible with ProteinSolver. Using anaconda, the following commands should suffice to setup the correct environment:
 ```
