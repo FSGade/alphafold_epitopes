@@ -1,5 +1,5 @@
 # PREDICTION OF EPITOPES USING ALPHAFOLD2 STRUCTURES AND GRAPH NEURAL NETWORKS
->#### Magnus H. Høie (s216559), Frederik S. Gade (s184260), Ida Meitil (s153020)
+>#### Magnus Haraldson Høie (s216559), Frederik S. Gade (s184260), Ida Meitil (s153020)
 > Epitopes are surface-exposed regions of a pathogenic molecule or antigen, which are targeted by the adaptive immune system by e.g. B-cell receptors. Binding is largely determined by the surface features of the target molecule. AlphaFold2 is a deep-learning protein folding model achieving near experimental quality prediction for many proteins. Furthermore, graph-based neural networks such as ProteinSolver allow structural representation of proteins suitable for tasks such as epitope prediction. We investigate improved epitope prediction using Alphafold2 modelled structures over sequence-only models.
 >
 >*02456 DEEP LEARNING, DTU COMPUTE, FALL 2021*
