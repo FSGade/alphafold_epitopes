@@ -15,7 +15,7 @@
 </p>
 <br>
 
-The main notebook of this project, `Epitope_Prediction.ipynb`, contains demonstrations of our three models (FFNN, RNN & GNN) and two reference models (Discotope2 [[1]](#1) and BepiPred3 [[2]](#2)) and a comparison of their performance. We allow use of both solved structure embeddings and AlphaFold2 [[3]](#2) structure embeddings. Both of these embeddings are made with ProteinSolver [[4]](#2).
+The main notebook of this project, [Epitope_Prediction.ipynb](https://github.com/FSGade/alphafold_epitopes/blob/main/Epitope_Prediction.ipynb), contains demonstrations of our three models (FFNN, RNN & GNN) and two reference models (Discotope2 [[1]](#1) and BepiPred3 [[2]](#2)) and a comparison of their performance. We allow use of both solved structure embeddings and AlphaFold2 [[3]](#2) structure embeddings. Both of these embeddings are made with ProteinSolver [[4]](#2).
 
 Running this notebook requires specific versions of PyTorch and associated packages to be compatible with ProteinSolver. Using anaconda, the following commands should suffice to setup the correct environment:
 ```
